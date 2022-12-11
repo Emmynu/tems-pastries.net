@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body id="button">
+        <style>
+              body{
+            background-image: url(pexels-anand-dandekar-1532771.jpg);
+            background-position: center;
+            background-size: cover;
+            align-items: center;
+            overflow: hidden;
+          
+        }
+     
+        
+      
+        body {
+            padding-left: 130px;
+            padding-top: 80px;
+
+        }
+
+        .head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 9px;
+            padding: 0px;
+            margin-left: 17px;
+            vertical-align: top;
+            cursor: pointer;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+
+
+
+        }
+
+        .heading{
+            font-size: 90px;
+            text-align: center;
+            animation:  textup 10s linear infinite;
+            transform: translateX(100px);
+    
+        }
+        @keyframes textup{
+            10%{
+                transform: translateX(20px);
+            }
+            100%{
+                transform: translateX(20px);
+            }
+        }
+        .heading2{
+            font-size: 40px;
+            text-align: center;
+            animation:  textup 10s linear infinite;
+            transform: translateX(100px);
+
+        }
+        @keyframes textup{
+            10%{
+                transform: translateX(20px);
+            }
+            100%{
+                transform: translateX(20px);
+            }
+        }
+        
+        .heading3{
+            font-size: 40px;
+            text-align: center;
+            color: rgb(201, 233, 244);
+            animation:  textup 10s linear infinite;
+            transform: translateX(100px);
+        }
+        @keyframes textup{
+            10%{
+                transform: translateX(20px);
+            }
+            100%{
+                transform: translateX(20px);
+            }
+        }
+      
+        .style,.style2 {
+            background: none;
+            border: none;
+        }
+        .style:hover{
+            background-color: rgb(235, 235, 235);
+        }
+        .picture {
+            width: 40px;
+        } 
+        .image4 {
+            width: 30px;
+            margin-right: 50px;
+            flex-shrink: 0;
+          
+        }
+        .input {
+            height: 26px;
+
+            padding-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            border-radius: 3px;
+            box-shadow: rgba(0 0 0 0.6);
+            border: 1px rgb(161, 160, 160) solid;
+            padding-top: 4px;
+            flex: 7;
+          
+        }
+        .btn {
+            background: none;
+            background-color: rgb(246, 245, 245);
+            margin-right: 200px;
+            border-radius: 38px;
+            height: 37px;
+            border: none;
+            vertical-align: sub;
+        }
+        .image2 {
+            width: 24px;
+            height: 24px;
+            padding: 2px;
+
+        }
+        .image {
+            width: 43px;
+            height: 18px;
+
+
+
+        }
+        .image3 {
+            width: 30px;
+            padding-right: 3px;
+        }
+     
+          
+
+        .but {
+            background: none;
+            width: 40px;
+            height: 40px;
+            border: none;
+        }
+        </style>
+        <div class="head">
+            <button class="but"><img src="hamburger-menu.svg" class="image3"></button>
+            <img src="tems.png" style="width: 100px;
+            height: 55px;
+            margin-right: 20px;
+            vertical-align: middle;
+           ">
+          <img src="logo.png" style="width: 150px;
+          height: 30px;
+          margin-bottom: -10px;
+          margin-left: -20px;">
+    
+        
+            <div style="
+                     position: fixed;
+                     top: 120px;
+                     bottom: 0;
+                     width: 100px;
+                     display: flex;
+                     justify-content: space-between;
+                     text-align: center;
+                     flex-direction: column;
+                     left: 0;
+                     "><a href="home.html"><button class="style" ><img src="home.svg" class="picture"></button></a>
+                 <p style="margin-top: 5px;
+                     font-family: helvetica;
+                     font-size: 19px;
+                     margin-left: 6px;
+                     font-weight: bold;
+                     ">Home</p>
+                <a href="flex.html"><button class="style"><img src="product.icon_files/search-product-icon.png" class="picture"></button></a> 
+                 <p style="margin-top: 2px;
+                   font-family: helvetica;
+                   font-size: 19px;
+                   margin-left: 6px;
+                   font-weight: bold;
+                   ">Product</p>
+                <a href="about.html"><button class="style"><img src="explore.svg" class="picture" style="margin-top: 20px ;"></button></a> 
+                 <p  style="margin-top: 2px;
+                 font-family: helvetica;
+                 font-size: 19px;
+                 margin-left: 6px;
+                 font-weight: bold;
+                 ">About us </p>
+    <a href="contact.html.html"><button class="style"><img src="pngpro_files/15895.png" class="picture"></button></a>
+                 <p style="margin-top: 2px;
+                             font-family: helvetica;
+                             font-size: 19px;
+                             margin-left: 6px;
+                             font-weight: bold;
+                             ">Contact</p>
+  
+                 <a href="contact.html"><button class="style"><img src="service-icon_files/services-icon.svg" class="picture"
+                    style="margin-top: 20px ;"></button></a>
+                 <p style="margin-top: 2px;
+          font-family: helvetica;
+          font-size: 19px;
+         margin-left: 6px;
+         font-weight: bold;
+          ">Services</p>
+             </div>
+             <div style="margin-top: -5px;
+                      margin-left: 100px;
+                  ">
+              <input type="text" placeholder="Search...." class="input">
+              <button style="background: none;
+                      border: 1px rgb(161, 160, 160) solid;
+                     margin-right: 20px;
+                      height: 32.5px;
+                      margin-left: -8px;
+                      background-color: rgb(245, 245, 245);
+                    " class="all"
+                    ><img src="search.svg" class="image"></button>
+              <button class="btn"><img src="voice-search-icon.svg" class="image2">
+              </button>
+          </div>
+          <div style="margin-right: 40px;">
+              <img src="upload.svg" class="image4">
+              <img src="youtube-apps.svg" class="image4">
+              <img src="notifications.svg" class="image4">
+           <button class="style2">  <img src="png.png" class="image4"></button>
+          </div>
+        </div>
+
+       </div>
+   <p class="heading">Welcome to Tems' Pastries and Confectioneries!
+     </p>
+     <p class="heading2">The only path to success is <span class="heading3">through 
+        good food</span>
+     </p>
+    </body>
+</html>

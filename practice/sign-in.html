@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" name="viewport" 
+        content="width = device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <div class="form">
+                <img src="user_files/585e4bf3cb11b227491c339a.png" class="img" >
+                <h1>Sign in</h1>
+                <p  class="head">Enter your username</p>
+                <input type="text" required placeholder="Enter your username">
+                <p class="head2">Enter your Password</p>
+                <input type="password" required placeholder="Enter your Password"><br>
+                <button onclick="document.location = 'home.html'" class="btn">Sign in </button>
+                <p class="account">You don't have an account? </p>
+                 <a href="grid.html" class="sign">Sign up</a>
+            </div>
+ 
+        </form>
+    </body>
+    <style>
+        body{
+            background-image: url(pexels-kaique-rocha-65438.jpg);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            cursor: pointer;
+        }
+        .img{
+            width: 90px;
+        }
+        .btn{
+            width: 300px;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            border: 1px rgb(0, 0, 0) solid;
+            margin-top: 20px;
+        }
+        input{
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                padding-left: 7px;
+              height: 30px;
+               width: 350px;
+           
+            }
+            .head{
+                margin-right: 180px;
+                margin-bottom: 3px;
+                font-size: 20px;
+            }
+            .head2{
+                margin-right: 180px;
+                margin-bottom: 3px;
+                font-size: 20px;
+            }
+            div{
+                background-color: rgb(255, 255, 255);
+                width: 500px;
+                text-align: center;
+                padding-top: 10px;
+                margin: 8% auto 0;
+            }
+            .sign{
+                position: relative;
+                left: 120px;
+                top: -35px;
+            }
+            h1{
+                font-size: 50px;
+                text-align: center;
+                margin-top: 5px;
+            }
+            .account{
+                font-weight: bold;
+            }
+            input::placeholder{
+                font-size: 15px;
+                font-weight: bold;
+            }
+    </style>
+</html>

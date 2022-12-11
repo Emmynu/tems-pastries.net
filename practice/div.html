@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head> <meta name="viewport"
+        content="width = device-width, initial-scale=1.0"></head>
+        
+    <body>
+        <style>
+            body{
+                background-image: url(images\ \(72\).jpeg);
+                background-position: center;
+                background-size: cover;
+                
+            }
+            .div{
+                background-color: #000;
+                width: 100%;
+                height: 60px;
+                position: relative;
+          
+            }
+            p{
+                color: white;
+                position: absolute;
+                left: 20px;
+                right: 0;
+                top: -8px;
+                bottom: 0px;
+                font: bold 30px sans-serif;
+            }
+            .bar{
+                display: inline-block;
+                cursor: pointer;
+               
+            }
+            .bar1, .bar2, .bar3{
+                width: 40px;
+                height: 5px;
+                margin: 6px 0;
+                background-color: rgb(0, 0, 0);
+                transition: 0.4s;
+                position: relative;
+                left: 1200px;
+                top: -50px;
+                z-index: 5;
+                background-color: white;
+            }
+            .bar1, .bar2, .bar3{
+                width: 23px;
+                border-radius: 10px;
+                background-image: linear-gradient(pink, green);
+
+            }
+            .bar2{
+                width: 33px;
+            }
+            .bar3{
+                width: 23px;
+            }
+             .change .bar1{
+                transform: translate(0, 11px) rotate(-45deg);
+            }
+             .change .bar3{
+                transform: translate(0, -11px) rotate(45deg);
+            }
+          .change .bar2{
+                opacity: 0;
+            }
+     
+            .menu{
+                position: relative;
+                left: 1245px;
+                top: -95px;
+                z-index: 7;
+               color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-family: georgia;
+
+            }
+            h1{
+                font-family: sans-serif;
+                font-size: 60px;
+                width: 600px;
+            }
+            h2{
+                font-size: 30px;
+                margin-bottom: -30px;
+            }
+            .sign, .sign2{
+                background-color: white;
+                border: black 2px solid;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top:  5px ;
+                padding-bottom: 5px;
+                border-radius: 20px;
+                width: 70px;
+                font-size: 15px;
+                font-weight: bold;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .sign2{
+                position: relative;
+                left: 0px;
+                top: 20px;
+                padding-left: 15px;
+                width: 90px;
+                height: 40px;
+                padding-right: 15px;
+
+            }
+         
+            .sign{
+                width: 85px;
+                height: 37px;
+                position: relative;
+                left: 1000px;
+                top: -144px;
+                z-index: 9;
+            
+            }
+         </style>
+        <script>
+           function bar(x) {
+            x.classList.toggle("change")
+           }
+        </script>
+       <div>
+        <div class="div"></div>
+        <p>LOGO</p>
+        <div class="bar" onclick="bar(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <p class="menu">MENU</p>
+        </div>
+
+       </div>
+      <a href="grid.html"><button class="sign">Sign up</button></a> 
+
+       <ul> 
+
+<h2>Welcome to</h2>
+<h1>Tems' Pastries and Confectioneries</h1>
+<div>
+    <a href="grid.html"><button class="sign2">Tour</button></a> 
+</div>
+  </body>
+</html>

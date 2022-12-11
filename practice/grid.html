@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+               
+                font-family: sans-serif;
+                background-image: url(pexels-александр-прокофьев-561463.jpg);
+                background-size: cover;
+                background-position: center;
+                color: black;
+            }
+           
+            .head{
+                margin-right: 210px;
+                margin-bottom: 3px;
+            }
+            .head2{
+                margin-right: 210px;
+                margin-bottom: 3px;
+                
+            }
+            .head3{
+                margin-right: 240px;
+                margin-bottom: 3px;
+                
+            }
+            .input{
+                border: 2px solid black;
+                border-radius: 10px;
+                padding-left: 7px;
+              height: 30px;
+               width: 350px;
+            }
+            .input::placeholder{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .div{
+                background-color: rgb(255, 255, 255);
+                width: 600px;
+                text-align: center;
+                margin: 8% auto 0;
+                padding: 20px;
+            }
+        .btn{
+            padding-right: 150px;
+            padding-left: 150px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            border: 1px rgb(0, 0, 0) solid;
+        }
+        .hr{
+            width: 20%;
+            margin-top: 20px; 
+        }
+.sign{
+   color:  rgb(0, 0, 0);
+}
+.img{
+    width: 100px;
+
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="div">
+            <img src="user_files/585e4bf3cb11b227491c339a.png" class="img">
+            <h1 class="sign">Sign up now</h1>
+            <form action="">
+                <p class="head3">Enter your Email</p>
+                <input type="email" placeholder="Enter your email" class="input" required>
+                <p class="head2">Enter your username</p>
+                <input type="username" placeholder="Enter your username" class="input" required>
+                <p class="head">Enter your Password</p>
+                <input type="input" placeholder="Enter your Password" class="input" required 
+                >
+                <p><span><input type="checkbox"></span>I agree to the terms of condition</p>
+               <button class="btn" onclick="sign()">Sign up</button>
+               <hr class="hr">
+               <P>OR</P>
+               <a href="home.html"><button class="btn">Sign up with email</button></a>
+               <p>Do you have an account? <a href="sign-in.html">Sign in</a></p>
+            </form>
+        </div>
+        <script>
+            function sign(){
+                document.location = "home.html"
+            }
+        </script>
+       
+    </body>
+  

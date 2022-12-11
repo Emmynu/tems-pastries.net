@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            padding-left: 150px;
+            padding-top: 100px;
+        
+        }
+
+        .head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 9px;
+            padding: 0px;
+            margin-left: 17px;
+            vertical-align: top;
+            cursor: pointer;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+
+
+
+        }
+
+        .image {
+            width: 43px;
+            height: 18px;
+
+
+
+        }
+
+        .image2 {
+            width: 24px;
+            height: 24px;
+            padding: 2px;
+
+        }
+
+        .btn {
+            background: none;
+            background-color: rgb(246, 245, 245);
+            margin-right: 200px;
+            border-radius: 38px;
+            height: 37px;
+            border: none;
+            vertical-align: sub;
+
+
+
+
+        }
+
+        .input {
+            height: 26px;
+            width: 1fr;
+            padding-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            border-radius: 3px;
+            box-shadow: rgba(0 0 0 0.6);
+            border: 1px rgb(161, 160, 160) solid;
+            padding-top: 4px;
+   
+          
+        }
+
+        .but {
+            background: none;
+            width: 40px;
+            height: 40px;
+            border: none;
+        }
+
+        .image3 {
+            width: 30px;
+            padding-right: 3px;
+        }
+
+        .imgpro {
+            width: 40px;
+            border-radius: 100px;
+
+        }
+
+        .image4 {
+            width: 30px;
+            margin-right: 50px;
+            flex-shrink: 0;
+          
+        }
+        .pos{
+            position: relative;
+        }
+        .position{
+           position: absolute;
+           top: -2px;
+           right: -2px;
+        }
+        .pic {
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+
+            vertical-align: sub;
+            margin-bottom: 40px;
+            padding-left: 20px;
+
+        }
+
+        .picture {
+            width: 40px;
+        }
+        .cart{
+            padding: 10px;
+            background-color: cadetblue;
+        }
+        .style {
+            background: none;
+            border: none;
+        }
+        .style:hover{
+            background-color: rgb(235, 235, 235);
+        }
+        .paragraph{
+            width: 20px;
+            display: inline-block;
+        }
+        .div{
+            display: inline-block;
+            margin-bottom: 40px;
+     
+        }
+        .book{
+            background-color: rgb(4, 73, 97);
+            color: white;
+            border: none;
+            width: 100px;
+            border-radius: 30px;
+            height: 50px;
+            margin-bottom: -20px;
+            margin-left: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .book:hover{
+            box-shadow: 3px 2px 2px rgba(0, 0,  0,  0.6);
+            text-decoration: underline;
+            font-weight: 800;
+        }
+        .text{
+            margin-top: -20px;
+            font-size: 20px;
+            font-weight:bold ;
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header{
+            margin-left: 20px;
+            margin-top: -30px;
+            font-size: 23px;
+            font-weight:bold ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div>
+            <button class="but"><img src="hamburger-menu.svg" class="image3"></button>
+             <img src="tems.png" style="width: 100px;
+             height: 55px;
+             margin-right: 20px;
+             vertical-align: middle;
+            ">
+           <img src="logo.png" style="width: 150px;
+           height: 30px;
+           margin-bottom: -10px;
+           margin-left: -20px;">
+       
+           <div style="background-color: rgb(255, 255, 255);
+                    position: fixed;
+                    top: 120px;
+                    bottom: 0;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: center;
+                    flex-direction: column;
+                    left: 0;
+                    "><a href="home.html"><button class="style" ><img src="home.svg" class="picture"></button></a>
+                <p style="margin-top: 5px;
+                    font-family: helvetica;
+                    font-size: 19px;
+                    margin-left: 6px;
+                    font-weight: bold;
+                    ">Home</p>
+               <a href="flex.html"><button class="style"><img src="product.icon_files/search-product-icon.png" class="picture"></button></a> 
+                <p style="margin-top: 2px;
+                  font-family: helvetica;
+                  font-size: 19px;
+                  margin-left: 6px;
+                  font-weight: bold;
+                  ">Product</p>
+               <a href="about.html"><button class="style"><img src="explore.svg" class="picture" style="margin-top: 20px ;"></button></a> 
+                <p  style="margin-top: 2px;
+                font-family: helvetica;
+                font-size: 19px;
+                margin-left: 6px;
+                font-weight: bold;
+                ">About us </p>
+    <a href="contact.html.html"><button class="style"><img src="pngpro_files/15895.png" class="picture"></a>
+                    </button>
+                <p style="margin-top: 2px;
+                            font-family: helvetica;
+                            font-size: 19px;
+                            margin-left: 6px;
+                            font-weight: bold;
+                            ">Contact</p>
+
+              <a href="contact.html">  <button class="style"><img src="service-icon_files/services-icon.svg" class="picture"
+                style="margin-top: 20px ;"></button></a>
+                <p style="margin-top: 2px;
+         font-family: helvetica;
+         font-size: 19px;
+        margin-left: 6px;
+        font-weight: bold;
+         ">Services</p>
+            </div>
+        </div>
+        <div style="margin-top: -5px;
+                    margin-left: 100px;
+                ">
+            <input type="text" placeholder="Search...." class="input">
+            <button style="background: none;
+                    border: 1px rgb(161, 160, 160) solid;
+                   margin-right: 20px;
+                    height: 32.5px;
+                    margin-left: -8px;
+                    background-color: rgb(245, 245, 245);
+                  " class="all"
+                  ><img src="search.svg" class="image"></button>
+            <button class="btn"><img src="voice-search-icon.svg" class="image2">
+            </button>
+        </div>
+        <div style="margin-right: 40px;">
+            <img src="upload.svg" class="image4">
+            <img src="youtube-apps.svg" class="image4">
+            <img src="notifications.svg" class="image4">
+           <button class="style"><img src="png.png" class="image4"></button> 
+        </div>
+    </div>
+
+
+    <div style="  display: inline-block;">
+        <img src="pexels-dmitry-zvolskiy-1721934.jpg" class="pic">
+        <p class="header">Flavored cake</p>
+        <p class="text"> &#x20A6; 9,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/+234817936185.com'">BOOK NOW</button >
+       </div>
+       <div class="div">
+        <img src="pexels-dalila-dalprat-1889651.jpg" class="pic">
+        <p class="header"> cake</p>
+        <p class="text"> &#x20A6; 9,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/+234817936185.com'">BOOK NOW</button >
+       </div>
+        <div class="div">
+            <img src="pexels-jeremy-wong-1038711.jpg" class="pic">
+            <p class="header"> Fundant icing wedding cake</p>
+            <p class="text"> &#x20A6; 40,000</p>
+            <button class="book" type="reset"
+            onclick="location.href='https://wa.me/c/+234817936185.com'">BOOK NOW</button >
+        </div>
+
+    </div>
+    <div style="  display: inline-block;
+    ">
+        <img src="pexels-vojtech-okenka-1055272.jpg" class="pic">
+        <p class="header"> Cupcake</p>
+        <p class="text"> &#x20A6;700 per cupcake</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >
+        </div>
+        <div class="div">
+            <img src="pexels-marta-dzedyshko-2067396.jpg" class="pic">
+            <p class="header"> Chocolate cake</p>
+        <p class="text"> &#x20A6; 15,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >
+        </div>
+        <div class="div"> 
+            <img src="pexels-brent-keane-1702373.jpg" class="pic">
+            <p class="header">Wedding cake</p>
+        <p class="text"> &#x20A6; 70,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >
+        </div>
+       
+    </div>
+    <div style="  display: inline-block;">
+        <img src="svg.png" class="pic">
+        <p class="header"> Sponge milky cake</p>
+        <p class="text"> &#x20A6; 20,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >                                                                                         
+    </div>
+    <div  class="div">
+        <img src="picture_files/delicious-beautiful-handmade-cake-confectionery-holiday-dessert-decorated-with-fresh-berries-green-leaves-sweets_166262-657.jpg"
+        class="pic">
+        <p class="header">Cake</p>
+        <p class="text"> &#x20A6; 15,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >                                                                  
+    </div>
+       <div class="div">
+        <img src="istockphoto-1336693912-170667a.jpg" class="pic">
+        <p class="header">Cake</p>
+        <p class="text"> &#x20A6; 25,000</p>
+        <button class="book" type="reset"
+        onclick="location.href='https://wa.me/c/234817936185.com'">BOOK NOW</button >
+       </div>
+    </div>
+</body>
+</html>

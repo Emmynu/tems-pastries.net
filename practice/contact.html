@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta 
+        name="viewport"
+        content="width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <style>
+            body{
+                overflow: hidden;
+                background-image: url(pexels-mathilde-langevin-14320969.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            h3{
+                text-align: center;
+                font-size: 50px;
+                margin-top: 60px;
+                color: white;
+                
+            }
+            .line{
+                background-color: rgb(255, 255, 255);
+                width: 150px;
+                height: 4px;
+                align-items: center;
+                position: relative;
+                left: 47%;
+                top: -40px;
+                animation: 2s line linear 0s;
+                transform: translateX(-10px);
+            }
+            @keyframes line {
+                0%{
+                    transform: translateX(-40px);
+                }
+                50%{
+                    transform: translateX(0px);
+                }
+                70%{
+                    transform: translateX(2px);
+                }
+                100%{
+                    transform: translateX(-10px);
+                }
+            }
+            img{
+                width: 20px;
+                border-radius: 20px;
+                border: rgb(255, 255, 255) solid 2px;
+                position: relative;
+                left: 120px;
+                top: 30px;
+            }
+            h5{
+                width: 270px;
+                font-size: 20px;
+                position: relative;
+                left: -10px;
+                text-align: center;
+                top: -20px;
+                color: white;
+            }
+            h4{
+                font-size: 30px;
+                font-weight: bolder;
+                font-family:'Times New Roman', Times, serif;
+                position: relative;
+                left: -14px;
+                text-align: center;
+                color: white;
+
+            }
+            .class{
+                position: relative;
+                left: 50px;
+                display: inline-block;
+                top: 50px;
+                margin-right: 60px;
+            }
+            .class:hover{
+                border: 3px black solid;
+                width: 280px;
+                height: 250px;
+                cursor: pointer;
+            }
+            span{
+                position: relative;
+                left: 6px;
+            }
+        </style>
+        <h3>Our Services</h3>
+        <div class="line"></div>
+        <div>
+            <div class=" class">
+                <img src="pexels-александр-прокофьев-561463.jpg" alt="">
+                <h4>Web Development</h4>
+                <h5>lopsum dorado ipsum sil  <span class="span"> amunut amet contactr adsxhvpij </span> elit pallw plaaerj johns</h5>
+            </div>
+            <div class=" class">
+                <img src="pexels-александр-прокофьев-561463.jpg" alt="">
+                <h4>App Development</h4>
+                <h5>lopsum dorado ipsum sil <span class="span"> amunut amet contactr adsxhvpij </span> elit pallw plaaerj johns</h5>
+            </div>
+            <div class=" class">
+                <img src="pexels-александр-прокофьев-561463.jpg" alt="">
+                <h4> Digital Marketing</h4>
+                <h5>lopsum dorado ipsum sil <span class="span"> amunut amet contactr adsxhvpij </span>elit pallw plaaerj johns</h5>
+            </div>
+            <div class=" class">
+                <img src="pexels-александр-прокофьев-561463.jpg" alt="">
+                <h4>Graphics designing</h4>
+                <h5>lopsum dorado ipsum sil  <span class="span"> amunut amet contactr adsxhvpij </span>elit pallw plaaerj johns</h5>
+            </div>
+        </div>
+    </body>
+</html>
